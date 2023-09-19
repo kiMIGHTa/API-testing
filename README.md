@@ -2,7 +2,8 @@
 ## Authors
 - Ubah Feisal
 - Dennis Kimaita
-- 
+
+  
 ## resources used
 - API(url)= https://jsonplaceholder.typicode.com/posts
 - Postman
