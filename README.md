@@ -7,14 +7,14 @@
 ## resources used
 - API(url)= https://jsonplaceholder.typicode.com/posts
 - Postman
-- Python shell
+- Python repl
 
-  when using the python shell run **pipenv install requests**
+  when using the terminal run **pipenv install requests**
   
 
 # Testing
 **get**
-- GET requests from postman and the shell were sucsessful.
+- GET requests from postman and the repl were sucsessful.
 - Data fetched from the API and gave the status code:200
 - terminal displays <Response [200]>
 
@@ -30,7 +30,7 @@
 }
 - Postman returns status code:201
 
-- POST request in python shell was successful
+- POST request in python repl was successful
 
 - in addition to defining the url, we also defined and object and pass it as a second argument to request.post() i.e 
 requests.patch(url,myobj)
@@ -46,7 +46,7 @@ requests.patch(url,myobj)
 }
 - Postman returns status code:200
 
-- PATCH request in python shell was successful
+- PATCH request in python repl was successful
 - in addition to defining the url, we also defined and object and pass it as a second argument to request.patch() i.e requests.patch(url,updatedobj)
 - terminal displays <Response [200]>
 
@@ -55,7 +55,7 @@ requests.patch(url,myobj)
 - Set the method to DELETE and update the url to include the id i.e "https://jsonplaceholder.typicode.com/posts/2"
 - Postman returns status code:200
 
-- DELETE request in python shell was successful.
+- DELETE request in python repl was successful.
 - while defining the url, update the url to include the id. 
 - terminal displays <Response [200]>
 
